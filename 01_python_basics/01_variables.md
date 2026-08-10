@@ -24,31 +24,7 @@ age = 25
 
 ## Visual Explanation
 
-```
-    age    =    25
-     |           |
-     |           |
-   variable    value
-   (label)    (stored in memory)
-```
-
-Think of a variable as a **label tied to a box in memory**, not a box itself:
-
-```
- ┌─────────┐
- │   25    │  <-- memory location
- └─────────┘
-      ▲
-      │
-    age   (label pointing to it)
-```
-
-If you reassign the variable, the label just moves to point at a new value:
-
-```python
-age = 25   # age -> 25
-age = 30   # age -> 30 (old value 25 is discarded)
-```
+![Python variables diagram](variables-diagram.svg)
 
 ---
 
