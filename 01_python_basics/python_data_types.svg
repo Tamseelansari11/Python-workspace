@@ -1,0 +1,27 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#1e293b"/></linearGradient>
+<style>
+.title{font:bold 42px Arial;fill:white}.subtitle{font:18px Arial;fill:#cbd5e1}
+.box{fill:#1e293b;stroke:#38bdf8;stroke-width:2;rx:18}
+.head{font:bold 22px Arial;fill:#38bdf8}.text{font:17px Consolas,monospace;fill:white}
+.footer{font:16px Arial;fill:#94a3b8}
+</style></defs>
+<rect width="1200" height="720" fill="url(#bg)"/>
+<text x="600" y="70" text-anchor="middle" class="title">Common Python Data Types</text>
+<text x="600" y="105" text-anchor="middle" class="subtitle">Most frequently used built-in data types</text>
+
+<g>
+<rect class="box" x="60" y="150" width="240" height="140"/><text x="180" y="185" text-anchor="middle" class="head">Integer (int)</text><text x="80" y="240" class="text">age = 18</text>
+<rect class="box" x="330" y="150" width="240" height="140"/><text x="450" y="185" text-anchor="middle" class="head">Float (float)</text><text x="350" y="240" class="text">price = 99.99</text>
+<rect class="box" x="600" y="150" width="240" height="140"/><text x="720" y="185" text-anchor="middle" class="head">String (str)</text><text x="620" y="240" class="text">name = "Python"</text>
+<rect class="box" x="870" y="150" width="240" height="140"/><text x="990" y="185" text-anchor="middle" class="head">Boolean (bool)</text><text x="890" y="240" class="text">is_online = True</text>
+
+<rect class="box" x="60" y="360" width="240" height="140"/><text x="180" y="395" text-anchor="middle" class="head">List</text><text x="80" y="450" class="text">[1, 2, 3]</text>
+<rect class="box" x="330" y="360" width="240" height="140"/><text x="450" y="395" text-anchor="middle" class="head">Tuple</text><text x="350" y="450" class="text">(1, 2, 3)</text>
+<rect class="box" x="600" y="360" width="240" height="140"/><text x="720" y="395" text-anchor="middle" class="head">Set</text><text x="620" y="450" class="text">{1, 2, 3}</text>
+<rect class="box" x="870" y="360" width="240" height="140"/><text x="990" y="395" text-anchor="middle" class="head">Dictionary</text><text x="890" y="450" class="text">{"name":"Alex"}</text>
+</g>
+<text x="600" y="650" text-anchor="middle" class="footer">Python • GitHub Learning Repository</text>
+</svg>
