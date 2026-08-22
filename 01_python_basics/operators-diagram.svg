@@ -1,0 +1,68 @@
+<svg width="700" height="780" viewBox="0 0 700 780" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Python operator categories</title>
+<desc>Diagram showing Python's Arithmetic, Comparison, Logical, Assignment, and Identity/Membership operators, each with an example and result.</desc>
+<rect width="700" height="780" fill="#FFFFFF"/>
+
+<text x="30" y="36" font-family="sans-serif" font-size="18" font-weight="600" fill="#2C2C2A">Python Operators</text>
+<text x="30" y="58" font-family="sans-serif" font-size="12" fill="#5F5E5A">grouped by category, with an example and result</text>
+
+<!-- Arithmetic -->
+<rect x="30" y="85" width="640" height="110" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="46" y="110" font-family="sans-serif" font-size="15" font-weight="600" fill="#26215C">Arithmetic</text>
+<text x="46" y="132" font-family="monospace" font-size="13" fill="#26215C">+  -  *  /  //  %  **</text>
+<text x="46" y="162" font-family="monospace" font-size="13" fill="#2C2C2A">10 // 3</text>
+<text x="150" y="162" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="180" y="162" font-family="monospace" font-size="14" font-weight="600" fill="#26215C">3</text>
+<text x="280" y="162" font-family="monospace" font-size="13" fill="#2C2C2A">10 %  3</text>
+<text x="384" y="162" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="414" y="162" font-family="monospace" font-size="14" font-weight="600" fill="#26215C">1</text>
+<text x="480" y="162" font-family="monospace" font-size="13" fill="#2C2C2A">10 ** 2</text>
+<text x="584" y="162" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="614" y="162" font-family="monospace" font-size="14" font-weight="600" fill="#26215C">100</text>
+
+<!-- Comparison -->
+<rect x="30" y="210" width="640" height="90" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="46" y="235" font-family="sans-serif" font-size="15" font-weight="600" fill="#04342C">Comparison</text>
+<text x="46" y="257" font-family="monospace" font-size="13" fill="#04342C">==  !=  &gt;  &lt;  &gt;=  &lt;=</text>
+<text x="46" y="285" font-family="monospace" font-size="13" fill="#2C2C2A">10 &gt; 5</text>
+<text x="150" y="285" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="180" y="285" font-family="monospace" font-size="14" font-weight="600" fill="#04342C">True</text>
+<text x="320" y="285" font-family="monospace" font-size="13" fill="#2C2C2A">10 == 5</text>
+<text x="424" y="285" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="454" y="285" font-family="monospace" font-size="14" font-weight="600" fill="#04342C">False</text>
+
+<!-- Logical -->
+<rect x="30" y="320" width="640" height="90" rx="10" fill="#FDEEDC" stroke="#B5651D" stroke-width="0.5"/>
+<text x="46" y="345" font-family="sans-serif" font-size="15" font-weight="600" fill="#6B3A0E">Logical</text>
+<text x="46" y="367" font-family="monospace" font-size="13" fill="#6B3A0E">and   or   not</text>
+<text x="46" y="395" font-family="monospace" font-size="13" fill="#2C2C2A">True and False</text>
+<text x="230" y="395" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="260" y="395" font-family="monospace" font-size="14" font-weight="600" fill="#6B3A0E">False</text>
+<text x="400" y="395" font-family="monospace" font-size="13" fill="#2C2C2A">True or False</text>
+<text x="570" y="395" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="600" y="395" font-family="monospace" font-size="14" font-weight="600" fill="#6B3A0E">True</text>
+
+<!-- Assignment -->
+<rect x="30" y="430" width="640" height="110" rx="10" fill="#E5EEFA" stroke="#2B5FA3" stroke-width="0.5"/>
+<text x="46" y="455" font-family="sans-serif" font-size="15" font-weight="600" fill="#173A61">Assignment</text>
+<text x="46" y="477" font-family="monospace" font-size="13" fill="#173A61">=  +=  -=  *=  /=</text>
+<text x="46" y="505" font-family="monospace" font-size="13" fill="#2C2C2A">x = 10</text>
+<text x="46" y="527" font-family="monospace" font-size="13" fill="#2C2C2A">x += 5</text>
+<text x="180" y="527" font-family="sans-serif" font-size="12" fill="#5F5E5A">-&gt; same as</text>
+<text x="280" y="527" font-family="monospace" font-size="13" font-weight="600" fill="#173A61">x = x + 5</text>
+<text x="440" y="527" font-family="monospace" font-size="12" fill="#5F5E5A">(x is now 15)</text>
+
+<!-- Identity & Membership -->
+<rect x="30" y="555" width="640" height="120" rx="10" fill="#F1EFE8" stroke="#8A8880" stroke-width="0.5"/>
+<text x="46" y="580" font-family="sans-serif" font-size="15" font-weight="600" fill="#2C2C2A">Identity &amp; Membership</text>
+<text x="46" y="602" font-family="monospace" font-size="13" fill="#2C2C2A">is   is not   in   not in</text>
+<text x="46" y="630" font-family="monospace" font-size="13" fill="#2C2C2A">x is None</text>
+<text x="200" y="630" font-family="sans-serif" font-size="12" fill="#5F5E5A">-&gt; checks identity, best for None</text>
+<text x="46" y="656" font-family="monospace" font-size="13" fill="#2C2C2A">"a" in "apple"</text>
+<text x="230" y="656" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="260" y="656" font-family="monospace" font-size="14" font-weight="600" fill="#2C2C2A">True</text>
+
+<line x1="30" y1="700" x2="670" y2="700" stroke="#D3D1C7" stroke-width="0.5"/>
+<text x="30" y="732" font-family="sans-serif" font-size="15" font-weight="600" fill="#2C2C2A">Operator precedence</text>
+<text x="30" y="760" font-family="monospace" font-size="14" fill="#2C2C2A">10 + 5 * 2  -&gt;  20   (multiplication runs first)</text>
+</svg>
