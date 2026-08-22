@@ -279,4 +279,4 @@ Python allows chained comparisons like `1 < x < 10` directly — no need to writ
 
 ## Next Module
 
-Proceed to **Conditional Statements** to learn how Python makes decisions using `if`, `elif`, and `else`.
+Proceed to **Type Casting** to learn how Python converts values between different data types.

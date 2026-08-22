@@ -1,0 +1,64 @@
+<svg width="700" height="700" viewBox="0 0 700 700" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Python type casting</title>
+<desc>Diagram showing implicit and explicit type casting in Python, common conversion functions, truthy/falsy values, and a note on truncation with int().</desc>
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#5F5E5A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker>
+</defs>
+<rect width="700" height="700" fill="#FFFFFF"/>
+
+<text x="30" y="36" font-family="sans-serif" font-size="18" font-weight="600" fill="#2C2C2A">Type Casting</text>
+<text x="30" y="58" font-family="sans-serif" font-size="12" fill="#5F5E5A">converting a value from one type into another</text>
+
+<!-- Implicit -->
+<rect x="30" y="85" width="640" height="100" rx="10" fill="#EEEDFE" stroke="#534AB7" stroke-width="0.5"/>
+<text x="46" y="110" font-family="sans-serif" font-size="15" font-weight="600" fill="#26215C">Implicit Casting</text>
+<text x="46" y="130" font-family="sans-serif" font-size="12" fill="#5F5E5A">Python converts automatically during an operation</text>
+<text x="46" y="160" font-family="monospace" font-size="13" fill="#2C2C2A">10 (int)  +  2.5 (float)</text>
+<text x="330" y="160" font-family="sans-serif" font-size="13" fill="#5F5E5A">-&gt;</text>
+<text x="360" y="160" font-family="monospace" font-size="14" font-weight="600" fill="#26215C">12.5 (float)</text>
+
+<!-- Explicit -->
+<rect x="30" y="200" width="640" height="185" rx="10" fill="#E1F5EE" stroke="#0F6E56" stroke-width="0.5"/>
+<text x="46" y="225" font-family="sans-serif" font-size="15" font-weight="600" fill="#04342C">Explicit Casting</text>
+<text x="46" y="245" font-family="sans-serif" font-size="12" fill="#5F5E5A">the programmer converts manually using built-in functions</text>
+
+<rect x="46" y="260" width="90" height="40" rx="8" fill="#BEE9DB"/>
+<text x="91" y="285" font-family="monospace" font-size="12" text-anchor="middle" fill="#04342C">"10"</text>
+<line x1="136" y1="280" x2="182" y2="280" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="138" y="270" font-family="monospace" font-size="10" fill="#5F5E5A">int()</text>
+<rect x="184" y="260" width="60" height="40" rx="8" fill="#D8D5FB"/>
+<text x="214" y="285" font-family="monospace" font-size="12" text-anchor="middle" fill="#26215C">10</text>
+
+<rect x="264" y="260" width="60" height="40" rx="8" fill="#D8D5FB"/>
+<text x="294" y="285" font-family="monospace" font-size="12" text-anchor="middle" fill="#26215C">10</text>
+<line x1="324" y1="280" x2="376" y2="280" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="326" y="270" font-family="monospace" font-size="10" fill="#5F5E5A">float()</text>
+<rect x="378" y="260" width="70" height="40" rx="8" fill="#F9DDBB"/>
+<text x="413" y="285" font-family="monospace" font-size="12" text-anchor="middle" fill="#6B3A0E">10.0</text>
+
+<rect x="468" y="260" width="60" height="40" rx="8" fill="#D8D5FB"/>
+<text x="498" y="285" font-family="monospace" font-size="12" text-anchor="middle" fill="#26215C">25</text>
+<line x1="528" y1="280" x2="576" y2="280" stroke="#5F5E5A" stroke-width="1.5" marker-end="url(#arrow)"/>
+<text x="530" y="270" font-family="monospace" font-size="10" fill="#5F5E5A">str()</text>
+<rect x="578" y="260" width="70" height="40" rx="8" fill="#BEE9DB"/>
+<text x="613" y="285" font-family="monospace" font-size="12" text-anchor="middle" fill="#04342C">"25"</text>
+
+<text x="46" y="335" font-family="monospace" font-size="12" fill="#2C2C2A">int()    ->  int("10") -&gt; 10</text>
+<text x="46" y="357" font-family="monospace" font-size="12" fill="#2C2C2A">float()  ->  float(10) -&gt; 10.0</text>
+<text x="360" y="335" font-family="monospace" font-size="12" fill="#2C2C2A">str()    ->  str(25) -&gt; "25"</text>
+<text x="360" y="357" font-family="monospace" font-size="12" fill="#2C2C2A">bool()   ->  bool(0) -&gt; False</text>
+
+<line x1="30" y1="410" x2="670" y2="410" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<text x="30" y="445" font-family="sans-serif" font-size="16" font-weight="600" fill="#2C2C2A">Truthy &amp; Falsy with bool()</text>
+<text x="30" y="475" font-family="monospace" font-size="14" fill="#2C2C2A">bool(0)     -&gt;  False</text>
+<text x="30" y="500" font-family="monospace" font-size="14" fill="#2C2C2A">bool(1)     -&gt;  True</text>
+<text x="30" y="525" font-family="monospace" font-size="14" fill="#2C2C2A">bool("")    -&gt;  False</text>
+<text x="30" y="550" font-family="monospace" font-size="14" fill="#2C2C2A">bool("hi")  -&gt;  True</text>
+
+<line x1="30" y1="580" x2="670" y2="580" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<text x="30" y="615" font-family="sans-serif" font-size="16" font-weight="600" fill="#2C2C2A">Careful: int() truncates, doesn't round</text>
+<text x="30" y="645" font-family="monospace" font-size="14" fill="#2C2C2A">int(9.9)    -&gt;  9</text>
+<text x="30" y="670" font-family="monospace" font-size="14" fill="#2C2C2A">round(9.9)  -&gt;  10</text>
+</svg>
